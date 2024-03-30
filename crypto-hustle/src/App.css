@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F7F7F7; /* Light gray background */
+  color: #333; /* Dark text color */
+  display: flex;
+  aligh-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #AB2328; /* Dark red */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #AB2328; /* Dark red border */
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #F9C11E; /* Yellow */
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #AB2328; /* Dark red on hover */
+  color: #FFF; /* White text on hover */
+}
+
+
+/* Styles for search bar */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #AB2328; /* Dark red border */
+  border-radius: 5px;
+}
+
+input[type="text"]::placeholder {
+  color: #AB2328; /* Dark red placeholder color */
+}
+
+/* Styles for filter dropdown */
+select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #AB2328; /* Dark red border */
+  border-radius: 5px;
+  background-color: #F9C11E; /* Yellow background */
+  color: #AB2328; /* Dark red text color */
+}
+
+/* Style for filter dropdown options */
+select option {
+  background-color: #F9C11E; /* Yellow background */
+  color: #AB2328; /* Dark red text color */
+}
+
+/* Style for filter dropdown arrow */
+select::-ms-expand {
+  display: none;
+}
+
+select::after {
+  content: '▼'; /* Downward-pointing arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #AB2328; /* Dark red arrow color */
+}
+/* App.css */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
