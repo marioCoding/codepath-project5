@@ -17,7 +17,7 @@ The following **required** functionality is completed:
   - [ x] *Type of Brewery*
   - [ x] *City*
   - [ x] *State*
-- [ ] **A search bar allows the user to search for an item in the fetched data**
+- [ x] **A search bar allows the user to search for an item in the fetched data**
 - [x ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
 
 The following **optional** features are implemented:
